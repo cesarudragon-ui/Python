@@ -1,7 +1,10 @@
-key = "contraseña"
-user_password = input("Introduce la contraseña: ")
+numeros1 = int(input("ingrese el primer numero:"))
+numeros2 = int(input("ingrese el segundo numero:"))
 
-if key.lower() == user_password.lower():
-    print("La contraseña coincide.")
+
+numeros_dividir = numeros1/numeros2
+
+if numeros_dividir == 0:
+    print("ERROR")
 else:
-    print("La contraseña no coincide.")
+    print("El resultado de la división es :", numeros_dividir)
